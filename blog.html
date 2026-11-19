@@ -8,7 +8,7 @@
 <body>
 
     <!-- En-tête de la page -->
-    <header>
+    <header id="accueil">
         <h1>Mon Blog Personnel</h1>
         <p>Bienvenue sur mon blog créé dans le cadre du cours IT 130.</p>
     </header>
@@ -25,52 +25,62 @@
 
     <!-- Contenu principal -->
     <main>
-        <!-- Article principal -->
-        <article>
-            <h2>Mon Premier Article</h2>
-            <p>Publié le <time datetime="2026-01-15">15 janvier 2026</time></p>
-            <p>Voici le contenu de mon premier article. J'apprends le HTML sémantique.</p>
-        </article>
 
-        <section id="apropos">
-          <h2>À propos de moi</h2>
-          <p>Je suis étudiant en <strong>Cyber sécurité</strong> à IPNET Institute of Technology.</p>
-          <p>J'apprends la cyber sécurité pour devenir pentester.</p>
-        </section>
+        <!-- Articles -->
+        <section id="articles">
+            <h2>Articles</h2>
 
-        <figure> 
-            <img src="https://bonjournature.fr/wp-content/uploads/paysage-du-monde-fond-decran-1.jpg" alt="image de démonstration montrant un paysage"
-            <figcaption>Figure 1 : Une image de démonstration avec une légende.
-            </figcaption>
+            <article>
+                <h3>Mon Premier Article</h3>
+                <p>Publié le <time datetime="2026-01-15">15 janvier 2026</time></p>
+                <p>Voici le contenu de mon premier article. J'apprends le HTML sémantique.</p>
+            </article>
+
+            <figure>
+                <img src="https://bonjournature.fr/wp-content/uploads/paysage-du-monde-fond-decran-1.jpg"
+                     alt="Image de démonstration montrant un paysage">
+                <figcaption>Figure 1 : Une image de démonstration avec une légende.</figcaption>
             </figure>
 
             <article>
-                <h2>Mon Deuxième Article</h2> 
-                <p>Publié le <time datetime="2026-01-20">20 janvier 2026</time></p> 
-                <p>J'apprends maintenant à structurer une page avec des balises sémantiques.</p> 
-                <p>Les balises <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, 
-                <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code> et 
-                <code>&lt;footer&gt;</code> sont mes préférées.</p> 
+                <h3>Mon Deuxième Article</h3>
+                <p>Publié le <time datetime="2026-01-20">20 janvier 2026</time></p>
+                <p>J'apprends maintenant à structurer une page avec des balises sémantiques.</p>
+                <p>Les balises <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>,
+                <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code> et
+                <code>&lt;footer&gt;</code> sont mes préférées.</p>
             </article>
+        </section>
 
-            <section id="contact"> 
-              <h2>Contact</h2> 
-              <p>Vous pouvez me contacter à l'adresse suivante :</p> 
-              <p><a href="mailto:etudiant@ipnetinstitute.com">Chukwuebuka.nnabugwu@ipnetinstitute.com</a></p> 
-            </section>
+        <!-- À propos -->
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+            <p>Je suis étudiant en <strong>Cyber sécurité</strong> à IPNET Institute of Technology.</p>
+            <p>J'apprends la cyber sécurité pour devenir pentester.</p>
+        </section>
 
-            <aside> 
-              <h3>Liens Utiles</h3> 
-              <ul> 
-                <li><a href="https://developer.mozilla.org/fr/" target="_blank">MDN Web Docs</a></li> 
-                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li> 
-                <li><a href="https://github.com/" target="_blank">GitHub</a></li> 
-              </ul> 
-            </aside>
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter à l'adresse suivante :</p>
+            <p><a href="mailto:Chukwuebuka.nnabugwu@ipnetinstitute.com">Chukwuebuka.nnabugwu@ipnetinstitute.com</a></p>
+        </section>
+
+        <!-- Contenu complémentaire -->
+        <aside>
+            <h3>Liens Utiles</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/fr/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+                <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+        </aside>
+
     </main>
 
     <footer>
-        <p>© 2026 Mon Blog - Créé par NNABUGWU CHUKWUEBUKA LIDAO </p>
-    <footer>
+        <p>© 2026 Mon Blog - Créé par NNABUGWU CHUKWUEBUKA LIDAO</p>
+    </footer>
+
 </body>
 </html>
